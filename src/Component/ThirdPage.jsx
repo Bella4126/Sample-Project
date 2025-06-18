@@ -56,14 +56,18 @@ const ActivityTracker = () => {
       <div className="ml-20 min-h-screen flex flex-col">
         {/* Header */}
         <div className="flex justify-between items-center p-6">
+          
           <button className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors">
             <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
             </div>
+            <Link to="/secondpage">
             <span className="font-medium">Back</span>
+            </Link>
           </button>
+        
           
           <button className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors">
             <span className="font-medium">Skip</span>

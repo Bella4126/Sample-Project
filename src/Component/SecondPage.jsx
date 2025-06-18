@@ -420,10 +420,13 @@ const SecondPage = () => { // Define SecondPage functional component
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%)' 
       }}>
       {/* Back button */}
+      
       <div className="absolute top-6 left-28 z-10 flex items-center">
+       <Link to="//emotion/:emotionId"></Link>
         <button className="flex items-center justify-center w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/30 transition-all duration-200">
           <span className="text-white text-lg font-bold">←</span>
         </button>
+        <Link/>
         <span className="ml-3 text-white text-sm font-medium">Back</span>
       </div>
 

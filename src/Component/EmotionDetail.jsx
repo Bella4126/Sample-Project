@@ -74,12 +74,15 @@ const EmotionDetail = () => {
       }}
     >
       {/* Back button */}
+      <Link to="/firstpage" >
       <div className="absolute top-6 left-28 z-10 flex items-center">
+     
         <button className="flex items-center justify-center w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full text-white hover:bg-white/30 transition-all duration-200">
           <span className="text-white text-lg font-bold">←</span>
         </button>
         <span className="ml-3 text-white text-sm font-medium">Back</span>
       </div>
+      </Link>
 
       {/* Main content container */}
       <div className="flex items-center justify-center min-h-screen p-4 pt-20 ml-20">
