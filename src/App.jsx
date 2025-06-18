@@ -6,7 +6,7 @@ import ThirdPage from "./Component/ThirdPage";
 import FourthPage from "./Component/FourthPage";
 import FifthPage from "./Component/FifthPage";
 import FinalPage from "./Component/FinalPage";
-import FirstPage from "./Component/FirstPage";
+import FirstPage from "./Component/Firstpage";
 import EmotionDetail from './Component/EmotionDetail';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path="/fourthpage" element={<FourthPage />} />
             <Route path="/fifthpage" element={<FifthPage />} />
             <Route path="/finalpage" element={<FinalPage />} />
-            <Route path="/firstpage" element={<FirstPage />} />
+            <Route path="/firstpage" element={<Firstpage />} />
             <Route path="/emotion/:emotionId" element={<EmotionDetail />} />
           </Routes>
         </div>
