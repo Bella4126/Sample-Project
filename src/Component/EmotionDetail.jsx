@@ -174,7 +174,7 @@ const EmotionDetail = () => {
                 Add Emotion
               </button>
                 </Link>
-              <Link to="/secondPage">
+              <Link to="/secondpage">
               <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-2xl font-semibold hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
                 Continue
               </button>
