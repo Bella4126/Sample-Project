@@ -6,7 +6,7 @@ import ThirdPage from "./Component/ThirdPage";
 import FourthPage from "./Component/FourthPage";
 import FifthPage from "./Component/FifthPage";
 import FinalPage from "./Component/FinalPage";
-import FirstPage from "./Component/Firstpage";
+import Firstpage from "./Component/Firstpage";
 import EmotionDetail from './Component/EmotionDetail';
 
 function App() {
